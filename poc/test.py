@@ -6,6 +6,6 @@ data, meta_data = ts.get_intraday(symbol='MSFT',interval='5min', outputsize='ful
 print(data.head(5))
 print(data.tail(5))
 print(meta_data)
-##
-# plt.title('Intraday Times Series for the MSFT stock (1 min)')
-##plt.show()
+data['4. close'].plot()
+plt.title('Intraday Times Series for the MSFT stock (1 min)')
+plt.show()
