@@ -1,0 +1,3 @@
+pip install <package>
+pip show <package>
+pip uninstall <package>
